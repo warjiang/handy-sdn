@@ -7,10 +7,12 @@
 
 
 # install prerequisite via apt-get
-apt-get install build-essential \
+apt-get install -y build-essential \
 				openssl libssl-dev \
-				autoconf automake libtool \
+				autoconf automake libtool
 
+# cd path/to/ovs
+#cd /home/caffee/sdn/openvswitch-2.3.1
 # make && make install
 ./boot.sh
 ./configure --prefix=/usr/local --with-linux=/lib/modules/`uname -r`/build
