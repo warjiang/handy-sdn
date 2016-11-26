@@ -1,8 +1,8 @@
-#Èç¹ûÄúµÄÏµÍ³ÊÇ Ubuntu 12.04 14.04£¬Docker 1.9 ÒÔÉÏ
+#å¦‚æœæ‚¨çš„ç³»ç»Ÿæ˜¯ Ubuntu 12.04 14.04ï¼ŒDocker 1.9 ä»¥ä¸Š
 
 echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=https://2h3po24q.mirror.aliyuncs.com\"" | sudo tee -a /etc/default/docker
 sudo service docker restart
-#Èç¹ûÄúµÄÏµÍ³ÊÇ Ubuntu 15.04 16.04£¬Docker 1.9 ÒÔÉÏ
+#å¦‚æœæ‚¨çš„ç³»ç»Ÿæ˜¯ Ubuntu 15.04 16.04ï¼ŒDocker 1.9 ä»¥ä¸Š
 
 #sudo mkdir -p /etc/systemd/system/docker.service.d
 #sudo tee /etc/systemd/system/docker.service.d/mirror.conf <<-'EOF'
